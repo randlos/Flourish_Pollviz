@@ -1,0 +1,21 @@
+id: 'pollviz'
+name: Pollviz
+description: A Flourish Poll Visualisation template made with d3.js
+author: Mario Stauber
+sdk_version: 3
+build:
+  src:
+    script: npm run build
+    directory: src
+    files:
+      - rollup.config.js
+  less:
+    script: npm run less
+    directory: less
+# settings:
+#   - Section title
+#   - property: example_state_property
+#     name: Example number setting
+#     description: A setting for changing a number
+#     type: number
+data: null
